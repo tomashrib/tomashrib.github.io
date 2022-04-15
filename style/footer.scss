@@ -1,0 +1,32 @@
+footer{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding: 3rem;
+    color: white;
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    box-sizing: border-box;
+
+    strong{
+        // color: cyan;
+        font-weight: 500;
+    }
+
+    .footerElements{
+        #author{
+        }
+        #last-update{
+        }
+        #contactEmail{
+        }
+        #donateBTC{
+            strong{
+                // color: gold;
+            }
+        }
+        
+    }
+}
