@@ -17,8 +17,8 @@
         // align-content: center;
         // justify-items: center;
         // justify-content: center;
-        // margin-left: 1rem;
-        // margin-right: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         .articleContainer{
             // text-align: justify;
             // border: 2px solid black;
@@ -43,7 +43,12 @@
         }
         
         @media(max-width: 600px){
-            width: 90vw;
+            .articleContainer{
+                // width: 80vw;
+                margin-left: auto;
+                margin-right: auto;
+                ;
+            }
         }
 
         @media(min-width: 700px){
@@ -51,7 +56,7 @@
         }
         @media(min-width: 1200px){
             grid-template-columns: repeat(3, auto);
-            width: 60vw;
+            width: 70vw;
             margin-left: auto;
             margin-right: auto;
         }
