@@ -1,0 +1,35 @@
+.article-container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  gap: 3rem;
+  margin: 0;
+  max-width: 1000px;
+  overflow-wrap: break-word;
+  padding: 2rem;
+}
+
+.article-container .headline {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.article-container .date {
+  font-size: 1.5rem;
+}
+
+.article-container .paragraph {
+  font-size: 1.3rem;
+  text-align: start;
+}
+
+.article-container .image {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.article-container .image img {
+  width: 100%;
+}

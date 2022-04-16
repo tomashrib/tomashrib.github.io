@@ -1,0 +1,34 @@
+.article-container{
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+    margin: 0;
+    max-width: 1000px;
+    overflow-wrap: break-word;
+    padding: 2rem;
+    .headline{
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 500;
+    }
+    .date{
+        font-size: 1.5rem;
+    }
+    .paragraph{
+        font-size: 1.3rem;
+        text-align:start;
+    }
+    .image{
+        display: grid;
+        place-items: center;
+        img{
+            width: 100%;
+        }
+
+        // @media(min-width: 700px){
+        //     img{
+        //         width: 1000px;
+        //     }
+        // }
+    }
+}
