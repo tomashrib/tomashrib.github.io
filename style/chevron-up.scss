@@ -1,0 +1,29 @@
+.chevron-up{
+    position: absolute;
+    a{
+        position: fixed;
+        right: .2rem;
+        bottom: 2.5rem;
+        z-index: 10;
+        img{
+            width: 3rem;
+        }
+    }
+
+    @media(min-width: 600px){
+        a{
+            right: 1rem;
+            bottom: 2.5rem;
+        }
+    }
+    @media(min-width: 1200px){
+        a{
+            right: 2rem;
+            bottom: 2rem;
+
+            img{
+                width: 5rem;
+            }
+        }
+    }
+}
