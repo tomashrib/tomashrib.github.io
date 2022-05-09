@@ -7,6 +7,9 @@
   right: .2rem;
   bottom: 2.5rem;
   z-index: 10;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
 }
 
 .chevron-up a img {
