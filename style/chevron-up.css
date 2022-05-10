@@ -1,34 +1,23 @@
-.chevron-up {
+.scrollToTopBtn {
   position: absolute;
 }
 
-.chevron-up a {
+.scrollToTopBtn a {
   position: fixed;
-  right: .2rem;
-  bottom: 2.5rem;
+  right: 1rem;
+  bottom: 1rem;
   z-index: 10;
   border: 2px solid white;
   border-radius: 50%;
   background-color: white;
 }
 
-.chevron-up a img {
+.scrollToTopBtn a img {
   width: 3rem;
 }
 
-@media (min-width: 600px) {
-  .chevron-up a {
-    right: 1rem;
-    bottom: 2.5rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .chevron-up a {
-    right: 2rem;
-    bottom: 2rem;
-  }
-  .chevron-up a img {
-    width: 5rem;
+@media (max-width: 600px) {
+  .scrollToTopBtn a {
+    display: none;
   }
 }
