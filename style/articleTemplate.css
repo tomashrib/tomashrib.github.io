@@ -30,6 +30,21 @@
   text-align: justify;
 }
 
+@media (max-width: 600px) {
+  .article-container .paragraph {
+    font-size: 1.3rem;
+  }
+  .article-container .headline {
+    font-size: 2rem;
+  }
+  .article-container .date {
+    font-size: 1.3rem;
+  }
+  .article-container .sub-headline {
+    font-size: 2rem;
+  }
+}
+
 .article-container .image {
   display: -ms-grid;
   display: grid;

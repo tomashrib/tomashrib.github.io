@@ -19,7 +19,7 @@
         font-size: 1.5rem;
         padding-left: 2rem;
         padding-right: 2rem;
-        text-align: left;
+        text-align: justify;
         span{}
     }
     
@@ -28,5 +28,11 @@
         max-width: 500px;
         border-radius: 2rem;
         box-shadow: 2px 3px 5px black;
+    }
+
+    @media(max-width: 600px){
+        .paragraph{
+            font-size: 1.3rem;
+        }
     }
 }
