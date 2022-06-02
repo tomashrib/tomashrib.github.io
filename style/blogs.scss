@@ -1,7 +1,14 @@
+// body{
+//   background-image: url("../media/bitcoin-financial-system.jpg");
+//   filter: blur(5px);
+// }
+
 .blogs-container{
   display: grid;
   align-content: center;
   align-items: center;
+  background-color: white;
+  // height: 100vh;
   .article-container{
     display: flex;
     flex-direction: column;
@@ -78,6 +85,8 @@
     padding: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   @media(max-width: 600px){
     .article-divider{

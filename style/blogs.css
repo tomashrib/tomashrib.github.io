@@ -6,6 +6,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: white;
 }
 
 .blogs-container .article-container {
@@ -83,6 +84,8 @@
   padding: 0;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 600px) {
